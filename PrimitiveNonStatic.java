@@ -1,25 +1,26 @@
 package primitivenonStatic;
 
 public class PrimitiveNonStatic {
-		byte b1 = 0 ;
-		short s1 = 0 ;
-		int i1 = 0 ;
-		long l1 = 0 ;
-		float f1 = 0 ;
-		char ch = 0 ;
-		boolean bool = false  ;
-		String str1 = null ;
-	        public static void main(String [] args) {
-		System.out.println(b1);
-		System.out.println(s1);
-		System.out.println(i1);
-		System.out.println(l1);
-		System.out.println(f1);
-		System.out.println(ch);
-		System.out.println(bool);
-		System.out.println(str1);
+		byte b1 ;
+		short s1  ;
+		int i1 ;
+		long l1 ;
+		float f1  ;
+		char ch ;
+		boolean bool  ;
+		String str1  ;
+		public static void main(String [] args) {
+		PrimitiveNonStatic ns=new PrimitiveNonStatic();
+		System.out.println(ns.b1);
+		System.out.println(ns.s1);
+		System.out.println(ns.i1);
+		System.out.println(ns.l1);
+		System.out.println(ns.f1);
+		System.out.println(ns.ch);
+		System.out.println(ns.bool);
+		System.out.println(ns.str1);
 		
-	}
+ 	}
 	
 
 }
