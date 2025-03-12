@@ -1,7 +1,6 @@
 package primitivenonStatic;
 
 public class PrimitiveNonStatic {
-	public static void main(String [] args) {
 		byte b1 = 0 ;
 		short s1 = 0 ;
 		int i1 = 0 ;
@@ -10,6 +9,7 @@ public class PrimitiveNonStatic {
 		char ch = 0 ;
 		boolean bool = false  ;
 		String str1 = null ;
+	        public static void main(String [] args) {
 		System.out.println(b1);
 		System.out.println(s1);
 		System.out.println(i1);
